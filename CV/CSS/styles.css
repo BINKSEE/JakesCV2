@@ -1,0 +1,179 @@
+
+/* Global */
+html{
+  min-height: 100%;
+}
+
+:root {
+  --black: black;
+  --white: #ffffff;
+}
+
+body{
+    margin: 6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: black;
+    font-family: "Product Sans";
+}
+
+contact-me{
+text-align: center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+main.dark-mode .a{
+  color: #FFFFFF;
+}
+
+
+.projects{
+text-align: center;
+background-color: white;
+
+}
+
+.banner{
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.divider{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-name{
+  margin:auto;
+  font-size: 180%;
+  background-color: transparent;
+}
+
+img{border:0;}
+
+div {
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    width:1 auto;
+}
+
+.email{
+  text-align:center;display:block;
+
+}
+
+.lightbulb{
+border-radius: 50%;
+stroke-width: 5px;
+stroke: black;
+background-color: transparent;
+}
+
+img {
+  border: 4px;
+}
+
+.bottom-links{
+  background-color: transparent;
+}
+
+a{
+  text-decoration: none;
+}
+.css-0{
+  text-decoration: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.row{
+margin-left: 225px;
+background-color: transparent;
+}
+
+/* Style the images inside the grid */
+.ImgWall {
+  float: left;
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.expandedimage{
+  width: 870px;
+  height: 870px;
+  background-color: white;
+  border: 5px solid rgb(245, 241, 1);
+}
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: -71px;
+  left: 2px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 244px;
+  color: yellow;
+  font-size: 50px;
+  cursor: pointer;
+}
+
